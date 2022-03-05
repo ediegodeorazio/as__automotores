@@ -14,7 +14,6 @@ body header nav div img {
 
 .navbar-nav {
     font-size: 1.5rem;
-    text-decoration: underline;
     font-weight: bold;
     font-family: 'Roboto Slab', serif;
 }
@@ -49,7 +48,11 @@ header {
     height: 65vh;
     border-radius: 10vw;
 }
-
+.text__carousel{
+    color: white;
+    text-decoration: bold;
+    text-shadow:0.2rem 0.2rem 0.2rem  black;
+}
 /*ASIDE*/
 body {
     background: rgb(232, 235, 197);
@@ -456,6 +459,30 @@ footer {
     font-family:'Source Serif Pro', serif;
     font-weight: bold;
 }
+/*animaciones*/
+.box1{
+display:flex;
+flex-direction: column;
+align-items: center;
+padding-bottom:1.0rem;
+transition:all 1s;
+}
+
+.box1:hover{
+    transform: scale(1.2);
+}
+.box2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:1.0rem;
+    transition:all 1s;
+    }
+    
+    .box2:hover{
+        transform: scale(1.1);
+    }
+    
 @media only screen and (max-width: 1024px) {
     .comentario__contacto{
         width:29rem;
