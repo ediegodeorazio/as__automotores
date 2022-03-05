@@ -1,0 +1,23 @@
+header {
+    background: rgb(2, 0, 14);
+    background: linear-gradient(147deg, rgba(2, 0, 14, 1) 0%, rgba(22, 38, 196, 1) 48%, rgba(0, 212, 255, 1) 100%);
+    .navbar-light .navbar-nav .nav-link {
+        padding-right: 2vw;
+        color: white;
+    }
+    .navbar-nav {
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: 'Roboto Slab', serif;
+    }
+    .navbar-collapse {
+        flex-grow: initial;
+    }
+    nav{
+        div{
+            img{
+                width: 350px;
+            }
+        }
+    }
+}

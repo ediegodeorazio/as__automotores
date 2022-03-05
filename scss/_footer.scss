@@ -1,0 +1,67 @@
+footer {
+    margin-top: 3rem;
+    background: rgb(2, 0, 14);
+    background: linear-gradient(147deg, rgba(2, 0, 14, 1) 0%, rgba(22, 38, 196, 1) 48%, rgba(0, 212, 255, 1) 100%);
+    .py-6 {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+    .text-heading {
+        color: #dbe1e7;
+    }
+    .text-para {
+        color: #dcdfe2;
+    }
+    .list-unstyled {
+        padding-left: 0;
+        list-style: none;
+        li{
+            a{
+                text-decoration: none;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .bg-transparent {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .border-dark {
+        border-color: #d8dde2;
+    }
+    .border-end-0 {
+        border-right: 0;
+    }
+    .input-group>.form-control,
+    .input-group>.form-select {
+    color: #dbe1e7;
+    }
+    /* inicio Seccion Copyright*/
+    .py-4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    }   
+    .bg-dark-gray {
+        background-color: #343a40;
+    }
+    .text-gray-300 {
+        color: #dee2e6;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
