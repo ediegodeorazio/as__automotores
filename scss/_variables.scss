@@ -1,1 +1,111 @@
 $coloraside: #dfdede;
+
+/*operaciones*/
+$anchoimg:600px;
+
+/*Condicionales*/
+
+$color:cremita;
+
+aside{
+
+    @if $color == azulcito {
+        background-color: #5ce2db;
+    }
+
+    @else if $color == cremita {
+        background-color: #dfdede;
+    }
+
+    @else if $color == rojito {
+        background-color: #df9898;
+    }
+
+    @else {
+        background-color: white;
+    }
+}
+/*Boolean*/
+
+$ver: false;
+
+.aside__img{
+    @if $ver {
+        border: 10px double #0970DF ;
+    }
+}
+
+/*bucle/loop*/
+$i:1;
+
+@for $i from 1 through 4 {
+    .bucle-#{$i}{
+        background-color: #dfdede;
+        border-radius: 10rem;
+    }
+}
+
+/*mapeo*/
+
+$redes:( /*declaro mi mapa*/
+        youtube: #d10c0c,
+        twitter: #55acee,
+        facebook: #3a5795,
+        instagram: #9542cc,
+        whatsapp: #04df46,
+);
+
+@each $red, $color1 in $redes{
+    .boton--#{$red}{
+        background-color: $color1;
+        
+    }
+
+}
+
+/*extend*/
+.input__map--youtube{
+    @extend .input__map;
+    padding:5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.input__map--twitter{
+    @extend .input__map;
+    padding: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input__map--facebook{
+    @extend .input__map;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input__map--instagram{
+    @extend .input__map;
+    padding: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.input__map--whatsapp{
+    @extend .input__map;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*mixin*/
+@mixin color4 ($background-color, $color2){
+    background-color: $background-color;
+    color: $color2;
+}
+
+.mixin{
+    @include color4 (#3a5795, #badbba );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    border-radius: 15rem;
+    margin-top: 1rem;
+}

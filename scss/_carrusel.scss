@@ -1,0 +1,21 @@
+.carousel-dark {
+	.carousel-caption {
+		color: rgb(187, 23, 23);
+		text-transform: bold;
+		font-size: large;
+	}
+}
+.slide {
+	margin-top: 6vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	img {
+		height: 65vh;
+		border-radius: 10vw;
+	}
+}
+.text__carousel {
+	color: white;
+	text-decoration: bold;
+	text-shadow: 0.2rem 0.2rem 0.2rem black;
+}
