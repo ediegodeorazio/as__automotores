@@ -7,11 +7,12 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Enzo Diego Deorazio",
   "license": "ISC",
-  "description": "",
+  "description": "Pagina web dedicada al consecionario As Automotores, para publicacion y venta de sus productos y servicios. Echo para proyecto final del curso de desarrollo web de coder house",
   "devDependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "bootstrap":"^5.0.x"
   }
 }
