@@ -13,6 +13,7 @@
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15",
-    "bootstrap":"^5.0.x"
+    "bootstrap":"^5.0.x",
+    "fontawesome":"^6.1.0"
   }
 }
