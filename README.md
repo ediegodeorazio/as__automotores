@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><title>MallTop.md</title><style></style></head><body id="preview">
+<!DOCTYPE html><html><head><meta charset="utf-8"></head><body id="preview">
 <h1 class="code-line" data-line-start=0 data-line-end=1><a id="As_Automotores_0"></a>As Automotores</h1>
 <h2 class="code-line" data-line-start=1 data-line-end=2><a id="Consesionaria_de_autos_1"></a>Consesionaria de autos</h2>
 <p class="has-line-data" data-line-start="3" data-line-end="5">As automotores es una pagina diseñada para el proyecto final de CoderHouse, utilizando HTML5 y CSS3,<br>
