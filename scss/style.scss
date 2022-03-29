@@ -1,23 +1,28 @@
 @import "variables";
 @import "reset";
 @import "header";
-@import "footer";
-@import "carrusel";
 @import "keyframes";
+@import "carrusel";
+@import "footer";
+
 
 /*ASIDE*/
 body {
     background-color: #94989c;
 }
-body div div div aside a{
+
+body div div div aside a {
     text-decoration: none;
 }
-body div aside a{
+
+body div aside a {
     text-decoration: none;
 }
-h6, h1{
-    color:rgb(180, 180, 180);
-    font-family:'Source Serif Pro', serif;
+
+h6,
+h1 {
+    color: rgb(180, 180, 180);
+    font-family: 'Source Serif Pro', serif;
     text-shadow: 0.2rem 0.2rem 0.2rem rgb(20, 20, 20);
 }
 
@@ -82,6 +87,16 @@ h6, h1{
     width: 600px;
     margin: 3rem;
     border-radius: 3rem;
+}
+
+.a__stock {
+    text-decoration: none;
+    color: rgb(170, 233, 176);
+}
+
+.a__stock:hover {
+    text-decoration: none;
+    color: rgb(170, 233, 176);
 }
 
 .contenido {
@@ -261,35 +276,40 @@ h6, h1{
     height: 15vw;
     width: 13vw;
     border-radius: 85px;
-    padding-left: 1rem;
+    padding: 0.5rem;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.text__div {
+    margin: 60px;
+    align-items: center;
+    font-size: 15px;
+
 }
 
-.text__div {
-    width: 18vw;
-    height: 15vh;
-    margin-left: 30px;
-    align-items: center;
-    padding-bottom: 35px;
-    font-size: 15px;
+body div main section div ul li {
+    color: rgb(180, 180, 180);
 }
-body div main section div ul li{
-    color:rgb(180, 180, 180);
-}
-body main div div div div div div h3{
-    color:rgb(180, 180, 180);
+
+body main div div div div div div h3 {
+    color: rgb(180, 180, 180);
     font-family: 'Source Serif Pro', serif;
     text-shadow: 0.2rem 0.2rem 0.2rem rgb(20, 20, 20);
 }
-body main div div div div div div p{
-    color:rgb(180, 180, 180);
+
+body main div div div div div div p {
+    color: rgb(180, 180, 180);
     font-family: 'Source Serif Pro', serif;
 }
+
 .h2__espacio {
     padding-top: 1px;
     margin-bottom: 8px;
     font-weight: bold;
     text-decoration: underline;
-    color:rgb(180, 180, 180);
+    color: rgb(180, 180, 180);
     text-shadow: 0.2rem 0.2rem 0.2rem rgb(20, 20, 20);
     font-family: 'Source Serif Pro', serif;
 }
@@ -378,6 +398,7 @@ body main div div div div div div p{
 .h1__text {
     text-align: center;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     font-size: 2.2rem;
     text-decoration: underline;
     font-weight: bold;
@@ -479,826 +500,10 @@ body main div div div div div div p{
 .caja17:hover {
     transform: scale(1.3)
 }
+
 .stock__text {
     padding: 2.8rem;
-    
+
 }
 
-@media only screen and (max-width: 1300px) {
-    .text__div {
-        width: 18vw;
-        height: 15vh;
-        margin-left: 30px;
-        align-items: center;
-        padding-bottom: 35px;
-        font-size: 12px;
-    } 
-    .caja1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .stock__img {
-        width: 410px;
-        margin: 2rem;
-        border-radius: 3rem;
-    }
-    .contenido {
-        background-color: #4c4e509d;
-        border-radius: 10rem;
-        margin-top: 90px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 3px solid #0970DF
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    .text__div {
-        width: 18vw;
-        height: 15vh;
-        margin-left: 30px;
-        align-items: center;
-        padding-bottom: 35px;
-        font-size: 11px;
-    }
-
-    .aside__stock {
-        display: flex;
-        flex-direction: column;
-        background-color: $color;
-        width: 23vw;
-        align-items: center;
-        border: 6px solid #0970DF;
-        border-radius: 25px;
-        margin-top: 3rem;
-        margin-left: 1rem;
-    }
-
-    .aside__producto {
-        display: flex;
-        flex-direction: column;
-        background-color: $color;
-        width: 30vw;
-        align-items: center;
-        border: 6px solid #0970DF;
-        border-radius: 25px;
-        margin-top: rem;
-        margin-left: 1rem;
-    }
-
-    .aside__index {
-        display: flex;
-        flex-direction: column;
-        width: 22vw;
-        background-color: $color;
-        align-items: center;
-        border: 6px solid #0970DF;
-        border-radius: 25px;
-        margin-top: 3rem;
-        margin-left: 2rem;
-    }
-
-    .stock__img {
-        width: 400px;
-        margin: 1rem;
-        border-radius: 3rem;
-    }
-
-    .contenido {
-        background-color: #4c4e509d;
-        border-radius: 10rem;
-        margin-top: 90px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 3px solid #0970DF
-    }
-
-    .stock__text {
-        padding: 2.7rem;
-
-    }
-
-    .comentario__contacto {
-        width: 29rem;
-        padding-left: 5rem;
-    }
-
-    .comentario__contacto p {
-        font-size: 2rem;
-        font-family: 'Source Serif Pro', serif;
-        font-weight: bold;
-    }
-
-    .producto__img {
-        object-fit: cover;
-        width: 20vw;
-        height: 110px;
-        margin-bottom: 1.5vw;
-        margin-left: 2, 5vw;
-        border: 4px solid #0970DF;
-        border-radius: 2.5vh;
-    }
-
-    .img__nosotros {
-        display: flex;
-        margin-left: -3rem;
-    }
-
-    .nav {
-        display: none;
-    }
-
-    .aside {
-        grid-area: aside;
-        display: flex;
-        width: 15rem;
-        flex-direction: column;
-        background-color: $color;
-        align-items: center;
-        border: 6px solid #0970DF;
-        border-radius: 25px;
-        margin-top: 3rem;
-        margin-left: 3rem;
-    }
-
-    .caja5 {
-        grid-area: quintacaja;
-    }
-
-    .caja6 {
-        grid-area: sextacaja;
-    }
-
-    .caja7 {
-        grid-area: septimacaja;
-    }
-
-    .caja8 {
-        grid-area: octavacaja;
-    }
-
-    .caja9 {
-        grid-area: novenacaja;
-    }
-
-    .caja10 {
-        grid-area: decimacaja;
-    }
-
-    .caja11 {
-        grid-area: onceavacaja;
-    }
-
-    .caja12 {
-        grid-area: doceavacaja;
-    }
-
-    .caja13 {
-        grid-area: treceavacaja;
-    }
-
-    .caja14 {
-        grid-area: catorceavacaja;
-    }
-}
-@media only screen and (max-width: 991px) {
-    .aside__stock {
-        display: flex;
-        flex-direction: column;
-        background-color: $color;
-        width: 95%;
-        align-items: center;
-        border: 6px solid #0970DF;
-        border-radius: 25px;
-        margin-top: 3rem;
-        margin-left: 1rem;
-    }
-    .stock__img {
-        width: 250px;
-        margin: 1rem;
-        border-radius: 3rem;
-    }
-    .contenido {
-        background-color: #4c4e509d;
-        border-radius: 10rem;
-        margin-top: 90px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 3px solid #0970DF;
-        padding: 10px;
-    }
-}
-@media only screen and (max-width: 768px) {
-    .iframe__reduction {
-        width: 18vw;
-        border-radius: 85px;
-    }
-
-    .caja1 {
-        grid-area: primeracaja;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .caja2 {
-        grid-area: segundacaja;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .caja3 {
-        grid-area: terceracaja;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .caja4 {
-        grid-area: cuartacaja;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .text__div {
-        width: 18vw;
-        height: 25vh;
-        margin-left: 30px;
-        align-items: center;
-        padding-bottom: 35px;
-        font-size: 10px;
-    }
-
-    .aside__stock {
-        display: flex;
-        flex-direction: column;
-        background-color: $color;
-        width: 95%;
-        align-items: center;
-        border: 6px solid #0970DF;
-        border-radius: 25px;
-        margin-top: 3rem;
-        margin-left: 1rem;
-    }
-
-    .aside__producto {
-        display: flex;
-        flex-direction: column;
-        background-color: $color;
-        width: 95%;
-        align-items: center;
-        border: 6px solid #0970DF;
-        border-radius: 25px;
-        margin-left: 1rem;
-    }
-
-    .aside__index {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        background-color: $color;
-        justify-content: center;
-        align-items: center;
-        border: 6px solid #0970DF;
-        border-radius: 25px;
-        margin-left: 1px;
-
-    }
-
-    .stock__img {
-        width: 300px;
-        margin: 1rem;
-        border-radius: 3rem;
-    }
-
-    .contenido {
-        background-color: #4c4e509d;
-        border-radius: 10rem;
-        margin-top: 90px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 3px solid #0970DF
-    }
-
-    .stock__text {
-        padding: 2.7rem;
-    }
-
-    .comentario__contacto {
-        width: 29rem;
-        padding-left: 5rem;
-    }
-
-    .contacto__form {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .comentario__contacto {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 4rem;
-    }
-
-    .form__style {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border: 4px solid #305b88;
-        padding: 10px;
-        margin-top: 2rem;
-        margin-right: 2rem;
-        margin-left: 2rem;
-    }
-
-    .input__label {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 8px;
-    }
-
-    .input__label label {
-        font-family: 'Source Serif Pro', serif;
-        font-size: 20px;
-    }
-
-    .comentario__contacto {
-        width: 28rem;
-        padding-left: 2rem;
-    }
-
-    .comentario__contacto p {
-        font-size: 2rem;
-        font-family: 'Source Serif Pro', serif;
-        font-weight: bold;
-    }
-
-    .img__nosotros {
-        display: flex;
-        flex-direction: column;
-        margin-left: 2rem;
-    }
-
-    .contenedor__oraciones img {
-        width: 20vw;
-        height: 45vh;
-        border: 4px solid #0970DF;
-        border-radius: 25px;
-        margin-left: 150px;
-    }
-
-    .producto__img {
-        object-fit: cover;
-        width: 60vw;
-        height: 110px;
-        margin-bottom: 1.5vw;
-        border: 4px solid #0970DF;
-        border-radius: 2.5vh;
-    }
-
-
-    .contenedor__oraciones img {
-        width: 90vw;
-        margin-left: 0px;
-    }
-
-
-
-    .nav {
-        display: none;
-    }
-
-    .principal__producto {
-        grid-area: producto;
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-areas:
-            "quintacaja sextacaja"
-            "septimacaja octavacaja"
-            "novenacaja decimacaja"
-            "onceavacaja doceavacaja"
-            "treceavacaja catorceavacaja";
-    }
-
-    .principal {
-        grid-area: principal;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas:
-            "primeracaja"
-            "segundacaja"
-            "terceracaja"
-            "cuartacaja";
-    }
-
-
-
-    .caja5 {
-        grid-area: quintacaja;
-        margin-left: 11rem;
-    }
-
-    .caja6 {
-        grid-area: sextacaja;
-        margin-left: 11rem;
-    }
-
-    .caja7 {
-        grid-area: septimacaja;
-        margin-left: 11rem;
-    }
-
-    .caja8 {
-        grid-area: octavacaja;
-        margin-left: 11rem;
-    }
-
-    .caja9 {
-        grid-area: novenacaja;
-        margin-left: 11rem;
-    }
-
-    .caja10 {
-        grid-area: decimacaja;
-        margin-left: 11rem;
-    }
-
-    .caja11 {
-        grid-area: onceavacaja;
-        margin-left: 11rem;
-    }
-
-    .caja12 {
-        grid-area: doceavacaja;
-        margin-left: 11rem;
-    }
-
-    .caja13 {
-        grid-area: treceavacaja;
-        margin-left: 11rem;
-    }
-
-    .caja14 {
-        grid-area: catorceavacaja;
-        margin-left: 11rem;
-    }
-}
-
-@media only screen and (max-width: 540px) {
-    .aside__stock {
-        display: flex;
-        flex-direction: column;
-        background-color: $color;
-        width: 93%;
-        align-items: center;
-        border: 6px solid #0970DF;
-        border-radius: 25px;
-        margin-top: 3rem;
-        margin-left: 1rem;
-    }
-
-    .aside__producto {
-        display: flex;
-        flex-direction: column;
-        background-color: $color;
-        width: 95%;
-        align-items: center;
-        border: 6px solid #0970DF;
-        border-radius: 25px;
-    }
-
-    .aside__index {
-        display: flex;
-        flex-direction: column;
-        background-color: $color;
-        align-items: center;
-        border: 6px solid #0970DF;
-        border-radius: 25px;
-        margin-top: 3rem;
-    }
-
-    .stock__img {
-        width: 50vw;
-        margin: 1rem;
-        border-radius: 3rem;
-    }
-
-    .contenido {
-        background-color: #4c4e509d;
-        border-radius: 10rem;
-        margin-top: 90px;
-        width: 80vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border: 3px solid #0970DF
-    }
-
-    .stock__text {
-        padding: 2.7rem;
-    }
-
-    .comentario__contacto {
-        width: 29rem;
-        padding-left: 5rem;
-    }
-
-
-    .grid__producto {
-        height: 100%;
-        margin: 0%;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, auto);
-        grid-template-areas:
-            "header"
-            "aside"
-            "producto"
-            "footer"
-    }
-
-    .img__nosotros {
-        display: flex;
-        flex-direction: column;
-        margin-left: 0.5rem;
-    }
-
-    .aside {
-        display: flex;
-        flex-direction: column;
-        background-color: $color;
-        width: 93%;
-        align-items: center;
-        border: 6px solid #0970DF;
-        border-radius: 25px;
-        margin-top: 1rem;
-        margin-left: 1rem;
-    }
-
-    .img__logo {
-        width: 200px;
-    }
-
-    .producto__img {
-        object-fit: cover;
-        width: 50vw;
-        height: 110px;
-        margin-bottom: 1.5vw;
-        margin-left: 2, 5vw;
-        border: 4px solid #0970DF;
-        border-radius: 2.5vh;
-    }
-    .caja1{
-        margin-left: 30px;
-        }
-    .caja2{
-        margin-left: 30px;
-    }
-    .caja3{
-        margin-left: 30px;
-        }
-    .caja4{
-        margin-left: 30px;
-    }
-    .grid {
-        height: 100%;
-        margin: 0%;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, auto);
-        grid-template-areas:
-            "header"
-            "aside"
-            "principal"
-            "footer"
-    }
-
-    .text__div {
-        width: 18vw;
-        height: 15vh;
-        margin-left: 30px;
-        align-items: center;
-        padding-bottom: 35px;
-        font-size: 10px;
-    }
-
-    .h2__espacio {
-        font-size: 15px;
-        padding-top: 1px;
-        margin-bottom: 8px;
-        font-weight: bold;
-        text-decoration: underline;
-        font-family: 'Source Serif Pro', serif;
-    }
-
-    .nav {
-        display: none;
-    }
-
-    .principal__producto {
-        grid-area: producto;
-        display: grid;
-        grid-template-columns: 1;
-        grid-template-rows: repeat(3, auto);
-        grid-template-areas:
-            "quintacaja"
-            "sextacaja"
-            "septimacaja"
-            "octavacaja"
-            "novenacaja"
-            "decimacaja"
-            "onceavacaja"
-            "doceavacaja"
-            "treceavacaja"
-            "catorceavacaja";
-    }
-
-    .principal {
-        grid-area: principal;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas:
-            "primeracaja"
-            "segundacaja"
-            "terceracaja"
-            "cuartacaja";
-    }
-
-    .text__div {
-        width: 120vw;
-        height: 15vh;
-        margin-left: 30px;
-        align-items: center;
-        padding-bottom: 35px;
-        font-size: 10px;
-    }
-
-    .caja1 {
-        grid-area: primeracaja;
-        width: 18rem;
-        padding: 1rem;
-    }
-
-    .caja2 {
-        grid-area: segundacaja;
-        width: 18rem;
-        padding: 1rem;
-    }
-
-    .caja3 {
-        grid-area: terceracaja;
-        padding: 1rem;
-        width: 18rem;
-    }
-
-    .caja4 {
-        grid-area: cuartacaja;
-        padding: 2rem;
-        width: 18rem;
-    }
-
-    .caja5 {
-        grid-area: quintacaja;
-        margin-left: 1rem;
-    }
-
-    .caja6 {
-        grid-area: sextacaja;
-        margin-left: 1rem;
-    }
-
-    .caja7 {
-        grid-area: septimacaja;
-        margin-left: 1rem;
-    }
-
-    .caja8 {
-        grid-area: octavacaja;
-        margin-left: 1rem;
-    }
-
-    .caja9 {
-        grid-area: novenacaja;
-        margin-left: 1rem;
-    }
-
-    .caja10 {
-        grid-area: decimacaja;
-        margin-left: 1rem;
-    }
-
-    .caja11 {
-        grid-area: onceavacaja;
-        margin-left: 1rem;
-    }
-
-    .caja12 {
-        grid-area: doceavacaja;
-        margin-left: 1rem;
-    }
-
-    .caja13 {
-        grid-area: treceavacaja;
-        margin-left: 1rem;
-    }
-
-    .caja14 {
-        grid-area: catorceavacaja;
-        margin-left: 1rem;
-    }
-
-    .comentario__contacto {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 1rem;
-    }
-
-    .form__style {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border: 4px solid #305b88;
-        margin-top: 2rem;
-        margin-left: 2rem;
-    }
-
-    .input__label {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .input__label label {
-        font-family: 'Source Serif Pro', serif;
-        font-size: 20px;
-    }
-
-    .comentario__contacto {
-        width: 18rem;
-        padding-left: 1rem;
-    }
-
-    .comentario__contacto p {
-        font-size: 1rem;
-        font-family: 'Source Serif Pro', serif;
-        font-weight: bold;
-    }
-
-    .grid__contacto {
-        height: 100vh;
-        margin: 0%;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 7fr 2fr;
-        grid-template-areas:
-            "header"
-            "principal"
-            "footer"
-    }
-
-    .contacto__form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-}
-@media only screen and (max-width: 320px) {
-.caja1{
-    margin-left: -10px;
-    }
-.caja2{
-    margin-left: -10px;
-}
-.caja3{
-    margin-left: -10px;
-    }
-.caja4{
-    margin-left: -10px;
-}
-}
+@import "media";
