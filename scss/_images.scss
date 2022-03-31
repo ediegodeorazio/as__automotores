@@ -1,0 +1,38 @@
+.contenedor__oraciones img {
+    width: 31vw;
+    height: 32vh;
+    border: 4px solid #0970DF;
+    border-radius: 25px;
+    margin-left: 150px;
+}
+
+.row__imagenes {
+    display: flex;
+}
+.stock__img {
+    width: 600px;
+    margin: 3rem;
+    border-radius: 3rem;
+}
+
+.img__logo {
+    width: ($anchoimg/3)+100;
+    animation: logoanimation 1s linear 0s 1 normal both;
+    /*animation: logoanimation1 2s linear 0s 1 normal both;*/
+}
+
+.img__reduction {
+    object-fit: cover;
+    width: 18vw;
+    height: 23vh;
+    border: 1vh double #0970DF;
+    border-radius: 10vh;
+}
+
+.iframe__reduction {
+    height: 11rem;
+    width: 11rem;
+    border-radius: 50px;
+    padding: 0.5rem;
+    margin-left: 0.6rem;
+}
