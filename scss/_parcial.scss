@@ -9,6 +9,7 @@ h6,h1 {
 }
 
 
+
 .contenido {
     background-color: #4c4e509d;
     border-radius: 10rem;
@@ -65,6 +66,7 @@ body main div div div div div div p {
     font-family: 'Source Serif Pro', serif;
     font-size: 25px;
 }
+
 .principal {
     grid-area: principal;
 }
@@ -88,15 +90,7 @@ body main div div div div div div p {
     flex-wrap: wrap;
     flex-direction: row;
 }
-.producto__img {
-    object-fit: cover;
-    width: 13vw;
-    height: 110px;
-    margin-bottom: 1.5vw;
-    margin-left: 2, 5vw;
-    border: 4px solid #0970DF;
-    border-radius: 2.5vh;
-}
+
 .h1__text {
     text-align: center;
     padding-top: 1rem;

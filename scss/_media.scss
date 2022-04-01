@@ -10,6 +10,7 @@
         font-family: 'Source Serif Pro', serif;
     }
 
+
     .caja1 {
         display: flex;
         justify-content: center;
@@ -34,6 +35,17 @@
     }
     .iframe__size{
         height: 25vh;
+    }
+    .aside__gestoria {
+        display: flex;
+        flex-direction: column;
+        background-color: $color;
+        width: 30vw;
+        align-items: center;
+        border: 6px solid #0970DF;
+        border-radius: 25px;
+        margin-top: rem;
+        margin-left: 1rem;
     }
 }
 
@@ -67,6 +79,11 @@
         color: rgb(180, 180, 180);
         text-shadow: 0.2rem 0.2rem 0.2rem rgb(20, 20, 20);
         font-family: 'Source Serif Pro', serif;
+    }
+    .text__div {
+        margin-left: 15px;
+        align-items: center;;
+        font-size: 11px;
     }
 
     .aside__stock {
@@ -158,7 +175,6 @@
         display: none;
     }
 
-
     .caja5 {
         grid-area: quintacaja;
     }
@@ -204,7 +220,21 @@
 }
 
 @media only screen and (max-width: 991px) {
- 
+    .principal {
+        grid-area: principal;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+            "primeracaja"
+            "segundacaja"
+            "terceracaja"
+            "cuartacaja";
+    }
+    .text__div {
+        align-items: center;
+        font-size: 13px;
+    }
     .aside__stock {
         display: flex;
         flex-direction: column;
@@ -304,6 +334,11 @@
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     }
 
+    .iframe__reduction {
+        width: 18vw;
+        border-radius: 85px;
+    }
+
     .slide {
         margin-top: 6vw;
         margin-left: 5vw;
@@ -316,6 +351,37 @@
         }
     }
 
+    .caja1 {
+        grid-area: primeracaja;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caja2 {
+        grid-area: segundacaja;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caja3 {
+        grid-area: terceracaja;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caja4 {
+        grid-area: cuartacaja;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .text__div {
         width: 18vw;
@@ -795,15 +861,6 @@
         border-radius: 25px;
     }
 
-    .text__div {
-        width: 120vw;
-        height: 15vh;
-        margin-left: 30px;
-        align-items: center;
-        padding-bottom: 35px;
-        font-size: 10px;
-    }
-
     .caja1 {
         grid-area: primeracaja;
         width: 18rem;
@@ -1001,7 +1058,7 @@
     }
 
     .iframe__size{
-        width: 77vw;
+        width: 94vw;
         height: 15vh;
     }
 
@@ -1014,6 +1071,6 @@
         border-radius: 25px;
         margin-top: 3rem;
         width: 35vh;
-        margin-left: 16px;
+        margin-left: 3px;
     }
 }
