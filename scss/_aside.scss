@@ -1,15 +1,3 @@
-.aside {
-    display: flex;
-    width: 20rem;
-    flex-direction: column;
-    background-color: $color;
-    align-items: center;
-    border: 6px solid #0970DF;
-    border-radius: 25px;
-    margin-top: 3rem;
-    margin-left: 3rem;
-}
-
 .aside__stock {
     display: flex;
     flex-direction: column;
@@ -70,15 +58,7 @@ body div aside a {
     margin-top: 5px;
 
 }
-.producto__img {
-    object-fit: cover;
-    width: 13vw;
-    height: 110px;
-    margin-bottom: 1.5vw;
-    margin-left: 2, 5vw;
-    border: 4px solid #0970DF;
-    border-radius: 2.5vh;
-}
+
 
 .img__nosotros {
     display: flex;
