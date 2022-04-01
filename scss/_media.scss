@@ -44,6 +44,9 @@
         align-items: center;
         border: 3px solid #0970DF
     }
+    .iframe__size{
+        height: 25vh;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -224,6 +227,9 @@
     .caja14 {
         grid-area: catorceavacaja;
     }
+    .iframe__size{
+        height: 20vh;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -300,6 +306,32 @@
         align-items: center;
         border: 6px solid #0970DF;
         border-radius: 25px;
+    }
+
+    .aside__gestoria{
+            display: flex;
+            width: 20rem;
+            flex-direction: column;
+            background-color: $color;
+            align-items: center;
+            border: 6px solid #0970DF;
+            border-radius: 25px;
+            margin-top: 3rem;
+            margin-left: 3rem;
+            height: 45rem;
+        }
+
+    .grid__container{
+        height: 100vh;
+        margin: 0%;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 1fr 1fr 4fr 2fr;
+        grid-template-areas: 
+        "gridheader gridheader"
+        "gridtitulo gridtitulo"
+        "aside      pgestoria"
+        "gridfooter gridfooter";
     }
 }
 
@@ -660,6 +692,17 @@
         width: 40vh;
     }
 
+    .aside__gestoria{
+        display: flex;
+        flex-direction: column;
+        background-color: $color;
+        align-items: center;
+        border: 6px solid #0970DF;
+        border-radius: 25px;
+        margin-top: 3rem;
+        width: 40vh;
+    }
+
     .stock__img {
         width: 50vw;
         margin: 1rem;
@@ -983,6 +1026,20 @@
         align-items: center;
         justify-content: center;
     }
+
+    .grid__container{
+        height: 100vh;
+        margin: 0%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 4fr 4fr 2fr;
+        grid-template-areas: 
+        "gridheader"
+        "gridtitulo"
+        "aside"
+        "pgestoria"
+        "gridfooter";
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -1031,5 +1088,22 @@
 
     .caja4 {
         margin-left: -10px;
+    }
+
+    .iframe__size{
+        width: 94vw;
+        height: 15vh;
+    }
+
+    .aside__gestoria{
+        display: flex;
+        flex-direction: column;
+        background-color: $color;
+        align-items: center;
+        border: 6px solid #0970DF;
+        border-radius: 25px;
+        margin-top: 3rem;
+        width: 35vh;
+        margin-left: 3px;
     }
 }

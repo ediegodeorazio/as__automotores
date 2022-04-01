@@ -1,5 +1,4 @@
 .aside {
-    grid-area: aside;
     display: flex;
     width: 20rem;
     flex-direction: column;
@@ -45,6 +44,7 @@
 }
 
 .aside__gestoria {
+    grid-area: aside;
     display: flex;
     flex-direction: column;
     background-color: $color;

@@ -44,7 +44,7 @@ $i:1;
 @for $i from 1 through 4 {
     .bucle-#{$i}{
         background-color: #4c4e509d;
-        border-radius: 2rem;
+        color: #b4b4b4;
     }
 }
 

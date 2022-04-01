@@ -1,0 +1,36 @@
+.grid__container{
+    height: 100vh;
+    margin: 0%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr 4fr 2fr;
+    grid-template-areas: 
+    "gridheader gridheader"
+    "gridtitulo gridtitulo"
+    "aside      pgestoria"
+    "gridfooter gridfooter";
+}
+
+.principal__gestoria{
+    grid-area: pgestoria;
+}
+
+.gridtitulo{
+    grid-area: gridtitulo;
+}
+
+.grid__footer{
+    grid-area: gridfooter;
+}
+
+.span__color{
+    color: #b4b4b4;
+}
+
+.color__green{
+    color:#03aa0b;
+}
+
+.iframe__size{
+    height: 34vh;
+}

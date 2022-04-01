@@ -1,0 +1,115 @@
+.caja1 {
+    display: flex;
+    grid-area: primeracaja;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5vw;
+    height: 35vh;
+}
+
+.caja2 {
+    display: flex;
+    grid-area: segundacaja;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5vw;
+    height: 35vh;
+}
+
+.caja3 {
+    display: flex;
+    justify-content: center;
+    grid-area: terceracaja;
+    align-items: center;
+    margin: 0.5vw;
+    height:35vh;
+}
+
+.caja4 {
+    display: flex;
+    justify-content: center;
+    grid-area: cuartacaja;
+    align-items: center;
+    margin: 0.5vw;
+    height:35vh;
+}
+
+.caja5 {
+    display: flex;
+    grid-area: quintacaja;
+    align-items: center;
+    margin: 1vw;
+    flex-direction: column;
+}
+
+.caja6 {
+    display: flex;
+    grid-area: sextacaja;
+    align-items: center;
+    margin: 1vw;
+    flex-direction: column;
+}
+
+.caja7 {
+    display: flex;
+    grid-area: septimacaja;
+    align-items: center;
+    margin: 1vw;
+    flex-direction: column;
+}
+
+.caja8 {
+    display: flex;
+    grid-area: octavacaja;
+    align-items: center;
+    margin: 1vw;
+    flex-direction: column;
+}
+
+.caja9 {
+    display: flex;
+    grid-area: novenacaja;
+    align-items: center;
+    margin: 1vw;
+    flex-direction: column;
+}
+
+.caja10 {
+    display: flex;
+    grid-area: decimacaja;
+    align-items: center;
+    margin: 1vw;
+    flex-direction: column;
+}
+
+.caja11 {
+    display: flex;
+    grid-area: onceavacaja;
+    align-items: center;
+    margin: 1vw;
+    flex-direction: column;
+}
+
+.caja12 {
+    display: flex;
+    grid-area: doceavacaja;
+    align-items: center;
+    margin: 1vw;
+    flex-direction: column;
+}
+
+.caja13 {
+    display: flex;
+    grid-area: treceavacaja;
+    align-items: center;
+    margin: 1vw;
+    flex-direction: column;
+}
+
+.caja14 {
+    display: flex;
+    grid-area: catorceavacaja;
+    align-items: center;
+    margin: 1vw;
+    flex-direction: column;
+}

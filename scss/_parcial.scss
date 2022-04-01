@@ -1,0 +1,125 @@
+body {
+    background-color: #94989c;
+}
+
+h6,h1 {
+    color: rgb(180, 180, 180);
+    font-family: 'Source Serif Pro', serif, Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0.2rem 0.2rem 0.2rem rgb(20, 20, 20);
+}
+
+.a__stock {
+    text-decoration: none;
+    color: rgb(170, 233, 176);
+}
+
+.a__stock:hover {
+    text-decoration: none;
+    color: rgb(170, 233, 176);
+}
+
+.contenido {
+    background-color: #4c4e509d;
+    border-radius: 10rem;
+    margin-top: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #0970DF
+}
+
+.contenedor__oraciones {
+    padding: 10px;
+}
+
+.contenedor__oraciones p {
+    font-size: 18px;
+}
+
+.h1__empresa {
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.div__text {
+    margin-left: 3vh;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+body div main section div ul li {
+    color: rgb(180, 180, 180);
+}
+
+body main div div div div div div h3 {
+    color: rgb(180, 180, 180);
+    font-family: 'Source Serif Pro', serif;
+    text-shadow: 0.2rem 0.2rem 0.2rem rgb(20, 20, 20);
+}
+
+body main div div div div div div p {
+    color: rgb(180, 180, 180);
+    font-family: 'Source Serif Pro', serif;
+}
+
+.h2__espacio {
+    padding-top: 1px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(180, 180, 180);
+    text-shadow: 0.2rem 0.2rem 0.2rem rgb(20, 20, 20);
+    font-family: 'Source Serif Pro', serif;
+    font-size: 25px;
+}
+
+.text__div {
+    margin: 60px;
+    align-items: center;
+    font-size: 13px;
+
+}
+.principal {
+    grid-area: principal;
+}
+
+
+/*PRODUCTO*/
+.padding {
+    padding-top: 4rem;
+
+}
+
+.a__producto {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Source Serif Pro', serif;
+    color: #305b88
+}
+.p__nosotros {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.h1__text {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2.2rem;
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(169, 190, 207);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.stock__text {
+    padding: 2.8rem;
+
+}
