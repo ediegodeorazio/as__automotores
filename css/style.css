@@ -98,14 +98,6 @@ body div aside a {
   margin-bottom: 12px;
   margin-top: 5px; }
 
-.caja1 {
-  display: flex;
-  grid-area: primeracaja;
-  justify-content: center;
-  align-items: center;
-  margin: 0.5vw;
-  height: 35vh; }
-
 .caja2 {
   display: flex;
   grid-area: segundacaja;
@@ -428,7 +420,7 @@ body main div div div div div div p {
 
 /*PRODUCTO*/
 .padding {
-  padding-top: 4rem; }
+  padding-top: 4.1rem; }
 
 .a__producto {
   text-align: center;
@@ -569,7 +561,7 @@ body main div div div div div div p {
     text-decoration: underline;
     color: #b4b4b4;
     text-shadow: 0.2rem 0.2rem 0.2rem #141414;
-    font-family: 'Source Serif Pro', serif; }
+    font-family: 'Source Serif Pro', serif, Verdana, Geneva, Tahoma, sans-serif; }
   .caja1 {
     display: flex;
     justify-content: center;
